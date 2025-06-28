@@ -13,15 +13,13 @@ namespace AspNetCoreTodo
     public class Program
     {
         public static void Main(string[] args)
-        {
-            
-
+        {        
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
-            //�������ڸ���Ϊ Scoped ��Singleton-->Scoped
+            //Singleton-->Scoped
             builder.Services.AddScoped<ITodoItemService, TodoItemService>();
 
             // 注册 Identity 服务，使用 ApplicationUser

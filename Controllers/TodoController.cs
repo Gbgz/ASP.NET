@@ -42,13 +42,38 @@ namespace AspNetCoreTodo.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> AddItem(TodoItem newItem)
         {
-            if (!ModelState.IsValid)
-            {
-                return RedirectToAction("Index");
-            }
+            // 添加这行来确认方法被调用
+            Console.WriteLine("=================================================");
+            Console.WriteLine($"AddItem方法被调用了！Title: {newItem?.Title}");
 
             var currentUser = await _userManager.GetUserAsync(User);
-            if (currentUser == null) return Challenge();
+            Console.WriteLine("0000000000000000000000000000000000000000");
+            Console.WriteLine("currentUserId = " + currentUser.Id);
+            if (currentUser == null)
+            {
+                Console.WriteLine("0000000000000000000000000000000000000000");
+                newItem.UserId = currentUser.Id;
+                Console.WriteLine("currentUserId = "+currentUser.Id);
+                //return Challenge();
+            } 
+
+            if (!ModelState.IsValid)
+            {
+                Console.WriteLine("/////////////////////////////////////////////");
+                Console.WriteLine("ModelState验证失败");
+
+                // 检查ModelState中的错误
+                foreach (var modelState in ModelState.Values)
+                {
+                    foreach (var error in modelState.Errors)
+                    {
+                        Console.WriteLine($"错误: {error.ErrorMessage}");
+                    }
+                }
+
+                return RedirectToAction("Index");
+            }
+                        
 
             var successful = await _todoItemService
                 .AddItemAsync(newItem, currentUser);

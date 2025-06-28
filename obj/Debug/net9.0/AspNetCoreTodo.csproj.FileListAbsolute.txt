@@ -336,7 +336,6 @@ D:\ASP\AspNetCoreTodo\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net9.0\staticwebas
 D:\ASP\AspNetCoreTodo\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net9.0\staticwebassets.build.json.cache
 D:\ASP\AspNetCoreTodo\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net9.0\staticwebassets.development.json
 D:\ASP\AspNetCoreTodo\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-D:\ASP\AspNetCoreTodo\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 D:\ASP\AspNetCoreTodo\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net9.0\AspNetCo.3A73015C.Up2Date
 D:\ASP\AspNetCoreTodo\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net9.0\AspNetCoreTodo.dll
 D:\ASP\AspNetCoreTodo\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net9.0\refint\AspNetCoreTodo.dll
@@ -409,3 +408,7 @@ D:\ASP\AspNetCoreTodo\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net9.0\compressed\
 D:\ASP\AspNetCoreTodo\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
 D:\ASP\AspNetCoreTodo\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
 D:\ASP\AspNetCoreTodo\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
+D:\ASP\AspNetCoreTodo\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\net9.0\xunit.abstractions.dll
+D:\ASP\AspNetCoreTodo\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\net9.0\xunit.assert.dll
+D:\ASP\AspNetCoreTodo\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\net9.0\xunit.core.dll
+D:\ASP\AspNetCoreTodo\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\net9.0\xunit.execution.dotnet.dll

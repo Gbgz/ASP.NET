@@ -22,6 +22,7 @@
             <tr>
                 <td>
                     <form asp-action="MarkDone" method="POST">
+                        @Html.AntiForgeryToken()
                         <input type="checkbox" class="done-checkbox">
                         <input type="hidden" name="id" value="@item.Id">
                     </form>

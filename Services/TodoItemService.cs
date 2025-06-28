@@ -27,6 +27,7 @@ namespace AspNetCoreTodo.Services
         }
         public async Task<bool> AddItemAsync(TodoItem newItem, ApplicationUser user)
         {
+            //Console.WriteLine("/////////////////////////////////////////////");
             newItem.Id = Guid.NewGuid();
             newItem.IsDone = false;
             newItem.DueAt = DateTimeOffset.Now.AddDays(3);
@@ -35,6 +36,8 @@ namespace AspNetCoreTodo.Services
             _context.Items.Add(newItem);
 
             var saveResult = await _context.SaveChangesAsync();
+            Console.WriteLine("/////////////////////////////////////////////");
+            Console.WriteLine("已添加记录");
             return saveResult == 1;
         }
         public async Task<bool> MarkDoneAsync(Guid id, ApplicationUser user)
