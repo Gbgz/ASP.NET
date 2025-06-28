@@ -2,9 +2,9 @@ using AspNetCoreTodo.Data;
 using AspNetCoreTodo.Models;
 using AspNetCoreTodo.Services;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;          // UseSqlite ·½·¨
-using Microsoft.Extensions.Configuration;      // Configuration.GetConnectionString ·½·¨
-using Microsoft.Extensions.DependencyInjection; // AddDbContext ·½·¨
+using Microsoft.EntityFrameworkCore;          // UseSqlite ï¿½ï¿½ï¿½ï¿½
+using Microsoft.Extensions.Configuration;      // Configuration.GetConnectionString ï¿½ï¿½ï¿½ï¿½
+using Microsoft.Extensions.DependencyInjection; // AddDbContext ï¿½ï¿½ï¿½ï¿½
 
 
 
@@ -14,33 +14,36 @@ namespace AspNetCoreTodo
     {
         public static void Main(string[] args)
         {
+            
+
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
-            //ÉúÃüÖÜÆÚ¸ü¸ÄÎª Scoped £¬Singleton-->Scoped
+            //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú¸ï¿½ï¿½ï¿½Îª Scoped ï¿½ï¿½Singleton-->Scoped
             builder.Services.AddScoped<ITodoItemService, TodoItemService>();
 
-            // ×¢²á Identity ·şÎñ£¨Ê¹ÓÃ ApplicationUser£©
+            // æ³¨å†Œ Identity æœåŠ¡ï¼Œä½¿ç”¨ ApplicationUser
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
-                .AddDefaultTokenProviders();
+                .AddDefaultTokenProviders()
+                .AddDefaultUI();
 
-            //Êı¾İ¿â
-            // ¸ù¾İÊı¾İ¿âÀàĞÍÑ¡ÔñÅäÖÃ
+            //æ•°æ®åº“
+            // é…ç½®æ•°æ®åº“è¿æ¥é€‰é¡¹
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
             {
-                // Ê¹ÓÃ SQLite£¨ÇáÁ¿£¬ÊÊºÏ¿ª·¢£©
+                // ä½¿ç”¨ SQLiteï¼Œé€‚åˆå¼€å‘ç¯å¢ƒ
                 options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
 
-                // »òÊ¹ÓÃ SQL Server£¨Éú²ú»·¾³ÍÆ¼ö£©
+                // å¦‚ä½¿ç”¨ SQL Serverï¼Œç”Ÿäº§ç¯å¢ƒæ¨è
                 // options.UseSqlServer(builder.Configuration.GetConnectionString("SqlServerConnection"));
 
-                // »òÊ¹ÓÃ PostgreSQL
+                // å¦‚ä½¿ç”¨ PostgreSQL
                 // options.UseNpgsql(builder.Configuration.GetConnectionString("PostgresConnection"));
 
-                // ÆôÓÃÃô¸ĞÊı¾İÈÕÖ¾£¨½ö¿ª·¢»·¾³£©
+                // å¼€å‘ç¯å¢ƒå¯ç”¨è¯¦ç»†æ—¥å¿—è®°å½•
                 if (builder.Environment.IsDevelopment())
                 {
                     options.LogTo(Console.WriteLine, LogLevel.Information)
@@ -51,6 +54,8 @@ namespace AspNetCoreTodo
 
 
             var app = builder.Build();
+
+            InitializeDatabase(app);
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
@@ -63,6 +68,7 @@ namespace AspNetCoreTodo
             app.UseHttpsRedirection();
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapStaticAssets();
@@ -71,7 +77,27 @@ namespace AspNetCoreTodo
                 pattern: "{controller=Home}/{action=Index}/{id?}")
                 .WithStaticAssets();
 
+            app.MapRazorPages();
+
             app.Run();
+        }
+        private static void InitializeDatabase(WebApplication app)
+        {
+            using (var scope = app.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+
+                try
+                {
+                    SeedData.InitializeAsync(services).Wait();
+                }
+                catch (Exception ex)
+                {
+                    var logger = services
+                        .GetRequiredService<ILogger<Program>>();
+                    logger.LogError(ex, "Error occurred seeding the DB.");
+                }
+            }
         }
     }
 }

@@ -30,6 +30,9 @@
                             <a class="nav-link text-dark" asp-controller="Todo" asp-action="Index">My to-dos</a>
                         </li>
                     </ul>
+                    <!-- 这里是你要添加的部分 -->
+                    @await Html.PartialAsync("~/Views/Shared/_LoginPartial.cshtml")
+                    @await Html.PartialAsync("_AdminActionsPartial")
                 </div>
             </div>
         </nav>
