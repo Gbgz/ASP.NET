@@ -18,8 +18,9 @@ namespace AspNetCoreTodo
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-        
-            builder.Services.AddSingleton<ITodoItemService, FakeTodoItemService>();
+
+            //生命周期更改为 Scoped ，Singleton-->Scoped
+            builder.Services.AddScoped<ITodoItemService, TodoItemService>();
 
             // 注册 Identity 服务（使用 ApplicationUser）
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
