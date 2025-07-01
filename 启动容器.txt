@@ -1,0 +1,1 @@
+docker run -d -p 8080:80 -v "D:\ASP\AspNetCoreTodo\AspNetCoreTodo\AspNetCoreTodo\todo.db:/app/data/todo.db" -e ASPNETCORE_ENVIRONMENT=Development -e ConnectionStrings__DefaultConnection="Data Source=/app/data/todo.db" --name myapp aspnetcoretodo:latest

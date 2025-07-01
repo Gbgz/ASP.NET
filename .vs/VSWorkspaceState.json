@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\AspNetCoreTodo",
+    "\\AspNetCoreTodo.UnitTests",
+    "\\AspNetCoreTodo\\AspNetCoreTodo.UnitTests",
+    "\\AspNetCoreTodo\\Controllers",
+    "\\AspNetCoreTodo\\Services"
+  ],
+  "SelectedNode": "\\AspNetCoreTodo\\Services\\TodoItemService.cs",
+  "PreviewInSolutionExplorer": false
+}

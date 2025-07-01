@@ -1,0 +1,440 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|d:\\asp\\aspnetcoretodo\\aspnetcoretodo\\aspnetcoretodo\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|solutionrelative:aspnetcoretodo\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDB84E0F-7A41-46B4-842E-D32A75FB62E3}|AspNetCoreTodo.IntegrationTests\\AspNetCoreTodo.IntegrationTests.csproj|d:\\asp\\aspnetcoretodo\\aspnetcoretodo\\aspnetcoretodo.integrationtests\\todorouteshould.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDB84E0F-7A41-46B4-842E-D32A75FB62E3}|AspNetCoreTodo.IntegrationTests\\AspNetCoreTodo.IntegrationTests.csproj|solutionrelative:aspnetcoretodo.integrationtests\\todorouteshould.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDB84E0F-7A41-46B4-842E-D32A75FB62E3}|AspNetCoreTodo.IntegrationTests\\AspNetCoreTodo.IntegrationTests.csproj|d:\\asp\\aspnetcoretodo\\aspnetcoretodo\\aspnetcoretodo.integrationtests\\testfixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDB84E0F-7A41-46B4-842E-D32A75FB62E3}|AspNetCoreTodo.IntegrationTests\\AspNetCoreTodo.IntegrationTests.csproj|solutionrelative:aspnetcoretodo.integrationtests\\testfixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0489D6-1F84-4F36-9C85-83C7901FE359}|AspNetCoreTodo.UnitTests\\AspNetCoreTodo.UnitTests.csproj|d:\\asp\\aspnetcoretodo\\aspnetcoretodo\\aspnetcoretodo.unittests\\todoitemserviceshould.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0489D6-1F84-4F36-9C85-83C7901FE359}|AspNetCoreTodo.UnitTests\\AspNetCoreTodo.UnitTests.csproj|solutionrelative:aspnetcoretodo.unittests\\todoitemserviceshould.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0489D6-1F84-4F36-9C85-83C7901FE359}|AspNetCoreTodo.UnitTests\\AspNetCoreTodo.UnitTests.csproj|d:\\asp\\aspnetcoretodo\\aspnetcoretodo\\aspnetcoretodo.unittests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0489D6-1F84-4F36-9C85-83C7901FE359}|AspNetCoreTodo.UnitTests\\AspNetCoreTodo.UnitTests.csproj|solutionrelative:aspnetcoretodo.unittests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|d:\\asp\\aspnetcoretodo\\aspnetcoretodo\\aspnetcoretodo\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|solutionrelative:aspnetcoretodo\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|d:\\asp\\aspnetcoretodo\\aspnetcoretodo\\aspnetcoretodo\\services\\todoitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|solutionrelative:aspnetcoretodo\\services\\todoitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|d:\\asp\\aspnetcoretodo\\aspnetcoretodo\\aspnetcoretodo\\services\\itodoitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|solutionrelative:aspnetcoretodo\\services\\itodoitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|d:\\asp\\aspnetcoretodo\\aspnetcoretodo\\aspnetcoretodo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|solutionrelative:aspnetcoretodo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|d:\\asp\\aspnetcoretodo\\aspnetcoretodo\\aspnetcoretodo\\views\\todo\\additempartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|solutionrelative:aspnetcoretodo\\views\\todo\\additempartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|d:\\asp\\aspnetcoretodo\\aspnetcoretodo\\aspnetcoretodo\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|solutionrelative:aspnetcoretodo\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|d:\\asp\\aspnetcoretodo\\aspnetcoretodo\\aspnetcoretodo\\views\\shared\\_adminactionspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|solutionrelative:aspnetcoretodo\\views\\shared\\_adminactionspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|d:\\asp\\aspnetcoretodo\\aspnetcoretodo\\aspnetcoretodo\\views\\todo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|solutionrelative:aspnetcoretodo\\views\\todo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|d:\\asp\\aspnetcoretodo\\aspnetcoretodo\\aspnetcoretodo\\aspnetcoretodo.unittests\\todoitemserviceshould.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|solutionrelative:aspnetcoretodo\\aspnetcoretodo.unittests\\todoitemserviceshould.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|d:\\asp\\aspnetcoretodo\\aspnetcoretodo\\aspnetcoretodo\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|solutionrelative:aspnetcoretodo\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|d:\\asp\\aspnetcoretodo\\aspnetcoretodo\\aspnetcoretodo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|solutionrelative:aspnetcoretodo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|d:\\asp\\aspnetcoretodo\\aspnetcoretodo\\aspnetcoretodo\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|solutionrelative:aspnetcoretodo\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|d:\\asp\\aspnetcoretodo\\aspnetcoretodo\\aspnetcoretodo\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|solutionrelative:aspnetcoretodo\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|d:\\asp\\aspnetcoretodo\\aspnetcoretodo\\aspnetcoretodo\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|solutionrelative:aspnetcoretodo\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|d:\\asp\\aspnetcoretodo\\aspnetcoretodo\\aspnetcoretodo\\views\\manageusers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|solutionrelative:aspnetcoretodo\\views\\manageusers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|d:\\asp\\aspnetcoretodo\\aspnetcoretodo\\aspnetcoretodo\\controllers\\manageuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|solutionrelative:aspnetcoretodo\\controllers\\manageuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|d:\\asp\\aspnetcoretodo\\aspnetcoretodo\\aspnetcoretodo\\models\\manageusersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|solutionrelative:aspnetcoretodo\\models\\manageusersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|d:\\asp\\aspnetcoretodo\\aspnetcoretodo\\aspnetcoretodo\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|solutionrelative:aspnetcoretodo\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|d:\\asp\\aspnetcoretodo\\aspnetcoretodo\\aspnetcoretodo\\models\\todoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|solutionrelative:aspnetcoretodo\\models\\todoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|d:\\asp\\aspnetcoretodo\\aspnetcoretodo\\aspnetcoretodo\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|solutionrelative:aspnetcoretodo\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|d:\\asp\\aspnetcoretodo\\aspnetcoretodo\\aspnetcoretodo\\aspnetcoretodo.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{73ABBA3B-1184-4953-9923-D62E6E2A902E}|AspNetCoreTodo\\AspNetCoreTodo.csproj|solutionrelative:aspnetcoretodo\\aspnetcoretodo.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.UnitTests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "AspNetCoreTodo.UnitTests\\UnitTest1.cs",
+              "ToolTip": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.UnitTests\\UnitTest1.cs",
+              "RelativeToolTip": "AspNetCoreTodo.UnitTests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T08:48:06.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TodoItem.cs",
+              "DocumentMoniker": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Models\\TodoItem.cs",
+              "RelativeDocumentMoniker": "AspNetCoreTodo\\Models\\TodoItem.cs",
+              "ToolTip": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Models\\TodoItem.cs",
+              "RelativeToolTip": "AspNetCoreTodo\\Models\\TodoItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T08:18:10.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Program.cs",
+              "RelativeDocumentMoniker": "AspNetCoreTodo\\Program.cs",
+              "ToolTip": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Program.cs",
+              "RelativeToolTip": "AspNetCoreTodo\\Program.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAwA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T08:05:59.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "AspNetCoreTodo\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "AspNetCoreTodo\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-28T06:14:16.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddItemPartial.cshtml",
+              "DocumentMoniker": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Views\\Todo\\AddItemPartial.cshtml",
+              "RelativeDocumentMoniker": "AspNetCoreTodo\\Views\\Todo\\AddItemPartial.cshtml",
+              "ToolTip": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Views\\Todo\\AddItemPartial.cshtml",
+              "RelativeToolTip": "AspNetCoreTodo\\Views\\Todo\\AddItemPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T06:11:22.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AspNetCoreTodo\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AspNetCoreTodo\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCEAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T03:15:53.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TodoController.cs",
+              "DocumentMoniker": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Controllers\\TodoController.cs",
+              "RelativeDocumentMoniker": "AspNetCoreTodo\\Controllers\\TodoController.cs",
+              "ToolTip": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Controllers\\TodoController.cs",
+              "RelativeToolTip": "AspNetCoreTodo\\Controllers\\TodoController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAQwBIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T08:07:10.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TodoItemServiceShould.cs",
+              "DocumentMoniker": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.UnitTests\\TodoItemServiceShould.cs",
+              "RelativeDocumentMoniker": "AspNetCoreTodo.UnitTests\\TodoItemServiceShould.cs",
+              "ToolTip": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.UnitTests\\TodoItemServiceShould.cs",
+              "RelativeToolTip": "AspNetCoreTodo.UnitTests\\TodoItemServiceShould.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T08:49:26.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestFixture.cs",
+              "DocumentMoniker": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.IntegrationTests\\TestFixture.cs",
+              "RelativeDocumentMoniker": "AspNetCoreTodo.IntegrationTests\\TestFixture.cs",
+              "ToolTip": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.IntegrationTests\\TestFixture.cs",
+              "RelativeToolTip": "AspNetCoreTodo.IntegrationTests\\TestFixture.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwAoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T09:07:39.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TodoRouteShould.cs",
+              "DocumentMoniker": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.IntegrationTests\\TodoRouteShould.cs",
+              "RelativeDocumentMoniker": "AspNetCoreTodo.IntegrationTests\\TodoRouteShould.cs",
+              "ToolTip": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.IntegrationTests\\TodoRouteShould.cs",
+              "RelativeToolTip": "AspNetCoreTodo.IntegrationTests\\TodoRouteShould.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T09:15:21.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITodoItemService.cs",
+              "DocumentMoniker": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Services\\ITodoItemService.cs",
+              "RelativeDocumentMoniker": "AspNetCoreTodo\\Services\\ITodoItemService.cs",
+              "ToolTip": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Services\\ITodoItemService.cs",
+              "RelativeToolTip": "AspNetCoreTodo\\Services\\ITodoItemService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T01:50:17.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TodoItemService.cs",
+              "DocumentMoniker": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Services\\TodoItemService.cs",
+              "RelativeDocumentMoniker": "AspNetCoreTodo\\Services\\TodoItemService.cs",
+              "ToolTip": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Services\\TodoItemService.cs",
+              "RelativeToolTip": "AspNetCoreTodo\\Services\\TodoItemService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAcwB0AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T05:59:12.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Views\\Todo\\Index.cshtml",
+              "RelativeDocumentMoniker": "AspNetCoreTodo\\Views\\Todo\\Index.cshtml",
+              "ToolTip": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Views\\Todo\\Index.cshtml",
+              "RelativeToolTip": "AspNetCoreTodo\\Views\\Todo\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAABIwBgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T01:48:26.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_AdminActionsPartial.cshtml",
+              "DocumentMoniker": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Views\\Shared\\_AdminActionsPartial.cshtml",
+              "RelativeDocumentMoniker": "AspNetCoreTodo\\Views\\Shared\\_AdminActionsPartial.cshtml",
+              "ToolTip": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Views\\Shared\\_AdminActionsPartial.cshtml",
+              "RelativeToolTip": "AspNetCoreTodo\\Views\\Shared\\_AdminActionsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T06:49:37.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "AspNetCoreTodo\\Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "AspNetCoreTodo\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T05:12:56.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TodoItemServiceShould.cs",
+              "DocumentMoniker": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.UnitTests\\TodoItemServiceShould.cs",
+              "RelativeDocumentMoniker": "AspNetCoreTodo\\AspNetCoreTodo.UnitTests\\TodoItemServiceShould.cs",
+              "ToolTip": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.UnitTests\\TodoItemServiceShould.cs",
+              "RelativeToolTip": "AspNetCoreTodo\\AspNetCoreTodo.UnitTests\\TodoItemServiceShould.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T07:20:03.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\SeedData.cs",
+              "RelativeDocumentMoniker": "AspNetCoreTodo\\SeedData.cs",
+              "ToolTip": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\SeedData.cs",
+              "RelativeToolTip": "AspNetCoreTodo\\SeedData.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA0wCIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T06:31:47.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "AspNetCoreTodo\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "AspNetCoreTodo\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAIBPwBAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T03:24:06.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Constants.cs",
+              "RelativeDocumentMoniker": "AspNetCoreTodo\\Constants.cs",
+              "ToolTip": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Constants.cs",
+              "RelativeToolTip": "AspNetCoreTodo\\Constants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T06:40:11.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Views\\ManageUsers\\Index.cshtml",
+              "RelativeDocumentMoniker": "AspNetCoreTodo\\Views\\ManageUsers\\Index.cshtml",
+              "ToolTip": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Views\\ManageUsers\\Index.cshtml",
+              "RelativeToolTip": "AspNetCoreTodo\\Views\\ManageUsers\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAABIwCwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T06:28:49.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ManageUsersController.cs",
+              "DocumentMoniker": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Controllers\\ManageUsersController.cs",
+              "RelativeDocumentMoniker": "AspNetCoreTodo\\Controllers\\ManageUsersController.cs",
+              "ToolTip": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Controllers\\ManageUsersController.cs",
+              "RelativeToolTip": "AspNetCoreTodo\\Controllers\\ManageUsersController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAABIwBcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T06:27:38.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ManageUsersViewModel.cs",
+              "DocumentMoniker": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Models\\ManageUsersViewModel.cs",
+              "RelativeDocumentMoniker": "AspNetCoreTodo\\Models\\ManageUsersViewModel.cs",
+              "ToolTip": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Models\\ManageUsersViewModel.cs",
+              "RelativeToolTip": "AspNetCoreTodo\\Models\\ManageUsersViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T06:28:11.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "AspNetCoreTodo\\appsettings.Development.json",
+              "ToolTip": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\appsettings.Development.json",
+              "RelativeToolTip": "AspNetCoreTodo\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-28T05:43:24.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TodoViewModel.cs",
+              "DocumentMoniker": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Models\\TodoViewModel.cs",
+              "RelativeDocumentMoniker": "AspNetCoreTodo\\Models\\TodoViewModel.cs",
+              "ToolTip": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\Models\\TodoViewModel.cs",
+              "RelativeToolTip": "AspNetCoreTodo\\Models\\TodoViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T01:44:26.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "AspNetCoreTodo\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "AspNetCoreTodo\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-28T01:48:55.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AspNetCoreTodo",
+              "DocumentMoniker": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+              "RelativeDocumentMoniker": "AspNetCoreTodo\\AspNetCoreTodo.csproj",
+              "ToolTip": "D:\\ASP\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+              "RelativeToolTip": "AspNetCoreTodo\\AspNetCoreTodo.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-28T01:48:48.749Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

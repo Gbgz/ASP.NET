@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  kestrel:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: aspnetcore-todo-app
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    volumes:
+      - todo-db-data:/app
+    networks:
+      - todo-network
+
+  nginx:
+    build:
+      context: ./nginx
+      dockerfile: Dockerfile
+    container_name: nginx-proxy
+    ports:
+      - "80:80"
+    depends_on:
+      - kestrel
+    networks:
+      - todo-network
+
+networks:
+  todo-network:
+    driver: bridge
+
+volumes:
+  todo-db-data: 
